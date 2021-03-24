@@ -1,0 +1,96 @@
+.postDetailContainer {
+  background-color: #4835c0;
+  width: 100%;
+  z-index: 3;
+}
+.postDetailContainerOne {
+  display: flex;
+  background-color: #4835c0;
+  height: 40vh;
+}
+
+.postdetailLeft {
+  width: 40%;
+  display: flex;
+}
+.searchBarPost {
+  margin-left: 40%;
+}
+.postdetailLeft img {
+  position: absolute;
+  margin-top: 5%;
+}
+.leftImg {
+  position: absolute;
+  margin-left: 40%;
+  z-index: 1;
+}
+
+.postdetailRight {
+  width: 60%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postCardContainer {
+  margin: 0;
+  height: 100vh;
+  background-color: #3f0197;
+}
+
+/* post detail card style */
+.postsDetailCardContainer {
+  height: 305vh;
+  background-color: #3f0197;
+  display: flex;
+  justify-content: center;
+}
+.postsDetailCard {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100%;
+}
+.posts {
+  width: 100%;
+  /* height: 60%; */
+  background-color: white;
+  margin: 20px 0;
+}
+
+/* .posts ul {
+    height: 25vh;
+  } */
+
+.postsDetailCard li {
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 1%;
+  color: #4835c0;
+}
+
+.postsDetailCard li img {
+  width: 100px;
+}
+
+.postsDetailCard li span {
+  margin: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.postsDetailCard li i {
+  margin-right: 5px;
+  color: #7fd9e2;
+  font-size: 20px;
+}
+
+.postsDetailCardLeft {
+  width: 30%;
+}
+
+.postsDetailCardRight {
+  width: 50%;
+}

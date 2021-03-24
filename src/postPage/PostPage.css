@@ -1,0 +1,42 @@
+.PostDiv {
+  width: 100%;
+}
+.postContainer {
+  background-color: white;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postContainerOne {
+  width: 80%;
+  display: flex;
+}
+
+.left {
+  width: 30%;
+  height: 20vh;
+}
+
+.left img {
+  width: 100%;
+  height: 40vh;
+}
+
+.right {
+  width: 70%;
+  height: 40vh;
+  color: white;
+  background: #3f0197;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postListsContainer {
+  height: 80vh;
+  padding: 2% 10%;
+  background-color: #4835c0;
+}

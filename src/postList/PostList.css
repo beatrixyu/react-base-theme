@@ -1,0 +1,41 @@
+.postsListCardListContainer {
+  height: 55vh;
+}
+.postsListCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.listCardPosts {
+  width: 40%;
+  /* height: 60%; */
+  background-color: white;
+  margin: 2%;
+}
+
+/* .posts ul {
+  height: 25vh;
+} */
+
+.postsListCard li {
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 1%;
+  color: #4835c0;
+}
+
+.postsListCard li img {
+  width: 100px;
+}
+
+.postsListCard li span {
+  margin: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.postsListCard li i {
+  margin-right: 5px;
+  color: #7fd9e2;
+  font-size: 20px;
+}

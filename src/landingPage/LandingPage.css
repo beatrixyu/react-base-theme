@@ -1,0 +1,231 @@
+/* --- landing page --- */
+
+/* landingpage left container */
+.landingpageContainerOne {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background: #4835c0;
+  display: flex;
+}
+
+.landingpageContainerOne .leftContainer {
+  background: white;
+  font-family: 'Poppins', sans-serif;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  display: flex;
+}
+.landingpageContainerOne .leftContainer h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.landingpageContainerOne .leftContainer h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 0;
+}
+
+.leftContainerText {
+  width: 40%;
+  height: 40%;
+  margin-top: 45%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.leftContainerText button {
+  width: 80%;
+  height: 50px;
+  background: #4835c0;
+  border-color: #d3cec4;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* landingpage right container */
+.rightContainer {
+  width: 50%;
+}
+
+.rightContainer img {
+  width: 70%;
+  background: white;
+  margin-top: 45%;
+  margin-left: 15%;
+}
+
+/* container two */
+.landingpageContainerTwo {
+  font-family: 'Poppins', sans-serif;
+  height: 80vh;
+  background: #4835c0;
+  display: flex;
+}
+/* landingpage left container */
+
+.leftContainerTwo {
+  width: 50%;
+}
+.leftContainerTwo img {
+  width: 45%;
+  margin-top: 25%;
+  margin-left: 25%;
+}
+
+.rightContainerTwo {
+  width: 50%;
+  background: white;
+}
+
+.rightContainerTwo main {
+  width: 100%;
+  height: 70%;
+  border: 30px solid #7fd9e2;
+  margin-left: -150px;
+  margin-top: 10%;
+}
+.rightContainerTwo h1 {
+  font-size: 48px;
+  margin: 20%;
+}
+/* container Three */
+.landingpageContainerThree {
+  font-family: 'Poppins', sans-serif;
+  height: 80vh;
+  background: #7fd9e2;
+  display: flex;
+}
+/* landingpage left container */
+.leftContainerThree {
+  width: 50%;
+  background: white;
+}
+.leftContainerThree img {
+  margin-top: 20%;
+  margin-left: 20%;
+  width: 50%;
+  /* border: 20px solid #4835c0; */
+}
+
+/* landingpage right container */
+.rightContainerThree {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.rightContainerThree main {
+  height: 50%;
+  width: 100%;
+}
+
+.rightContainerThree main h1 {
+  margin-top: 15%;
+  margin-left: 15%;
+}
+
+.rightContainerThree section {
+  height: 50%;
+  background-color: #40ccda;
+}
+
+.rightContainerThree section ul {
+  margin-top: 15%;
+  margin-left: 10%;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  list-style: none;
+  font-size: 18px;
+}
+
+.rightContainerThree section ul li {
+  display: flex;
+  align-items: center;
+}
+
+.rightContainerThree section ul li i {
+  color: #ffbe0f;
+  font-size: 40px;
+}
+
+.rightContainerThree section ul li a {
+  margin-left: 10px;
+}
+
+/* LandingPage Container Four */
+.landingpageContainerFour {
+  background: #4835c0;
+  font-family: 'Poppins', sans-serif;
+  height: 60vh;
+  display: flex;
+}
+
+.leftContainerFour {
+  width: 50%;
+}
+
+.rightContainerFourDiv {
+  width: 25%;
+  height: 35%;
+  background: #7fd9e2;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 10%;
+  z-index: 2;
+}
+
+.rightContainerFourImg {
+  z-index: 3;
+}
+.rightContainerFour img {
+  margin-top: 15%;
+  margin-left: 15%;
+  width: 50%;
+  /* border: 20px solid #4835c0; */
+}
+
+.rightContainerFour {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftContainerFour h1 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15%;
+  font-size: 48px;
+  margin: 20%;
+  color: white;
+}
+
+/* LandingPage Container Five */
+.landingpageContainerFive {
+  background: #7fd9e2;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.landingpageContainerFive h2 {
+  margin: 0;
+  padding-top: 1%;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.containerFiveGallery img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 40px;
+}

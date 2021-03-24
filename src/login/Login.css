@@ -1,0 +1,184 @@
+/* email subsciribe */
+.email {
+  height: 100vh;
+  background-color: #4835c0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.emailContainerLogin {
+  width: 50%;
+}
+.emailFormLogin {
+  padding-top: 40%;
+  padding-left: 20%;
+}
+
+.emailFormLogin label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 28px;
+  color: white;
+}
+
+.emailFormLogin button {
+  width: 60.5%;
+  height: 30px;
+  background: #7fd9e2;
+  border-color: #d3cec4;
+  border-radius: 4px;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  text-align: left;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+}
+
+.emailFormLogin input {
+  width: 60%;
+  height: 30px;
+  background-color: white;
+  border-color: white;
+  border-radius: 2px;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-align: left;
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+}
+.emailNavLogin {
+  width: 50%;
+  padding-top: 15%;
+  color: white;
+}
+
+.emailNavLogin nav {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailNavLogin ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.emailNavLogin ul li {
+  list-style: none;
+  font-size: 48px;
+  margin: 20%;
+}
+
+.blueLogo {
+  width: 30%;
+  margin-top: 25%;
+}
+
+/* submit css */
+.submitHeader {
+  font-family: 'Poppins', sans-serif;
+  height: 40vh;
+  display: flex;
+}
+
+.leftSubmitText {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.submitHeader h1 {
+  font-size: 48px;
+  top: 20%;
+}
+
+.submitHeader h3 {
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 0;
+  margin-bottom: 5%;
+  color: #4835c0;
+}
+
+.submitHeader button {
+  width: 80%;
+  height: 50px;
+  background: #4835c0;
+  border-color: #d3cec4;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.submitContainer {
+  height: 80vh;
+  display: flex;
+}
+
+.leftContainerSubmit {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-weight: 600;
+}
+
+.leftContainerSubmit form {
+  width: 80%;
+}
+
+.leftContainerSubmit form input {
+  background: #e5e5e5;
+  border-bottom: 1px solid #000;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 3%;
+}
+
+.leftContainerSubmit div {
+  margin-bottom: 2px;
+}
+
+.leftContainerSubmit button {
+  width: 100%;
+  height: 50px;
+  background: #7fd9e2;
+  border-color: #d3cec4;
+  border-radius: 4px;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.rightContainerSubmit {
+  color: white;
+  width: 50%;
+  background: #4835c0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rightSubmitText h1 {
+  font-size: 48px;
+}
+.rightSubmitText h3 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: normal;
+}

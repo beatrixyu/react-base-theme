@@ -1,0 +1,74 @@
+/* email subsciribe */
+.emailFooter {
+  height: 40vh;
+  background-color: #4835c0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.emailContainer {
+  width: 50%;
+}
+.emailForm {
+  padding-top: 10%;
+  padding-left: 20%;
+}
+
+.emailForm label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 28px;
+  color: white;
+}
+
+.emailForm button {
+  width: 304px;
+  height: 30px;
+  background: #7fd9e2;
+  border-color: #d3cec4;
+  border-radius: 4px;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  text-align: left;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+}
+
+.emailForm input {
+  width: 300px;
+  height: 30px;
+  background-color: white;
+  border-color: white;
+  border-radius: 2px;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-align: left;
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+}
+.emailFooterNavTwo {
+  width: 50%;
+  color: white;
+}
+
+.emailFooterNavTwo nav {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailFooterNavTwo ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.emailFooterNavTwo ul li {
+  list-style: none;
+  font-size: 48px;
+  margin: 20%;
+}
